@@ -93,7 +93,7 @@ $CFG->dboptions = array(
 // If you need both intranet and Internet access please read
 // http://docs.moodle.org/en/masquerading
 
-$CFG->wwwroot   = 'https://ipd-moodle.herokuapp.com/';
+$CFG->wwwroot   = 'http://ipd-moodle.herokuapp.com/';
 
 
 //=========================================================================
@@ -109,7 +109,7 @@ $CFG->wwwroot   = 'https://ipd-moodle.herokuapp.com/';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = 'DATAROOT';
+$CFG->dataroot  = '/tmp';
 
 
 //=========================================================================
