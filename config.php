@@ -41,9 +41,9 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'pgsql';      // 'pgsql', 'mariadb', 'mysqli', 'mssql', 'sqlsrv' or 'oci'
 $CFG->dblibrary = 'native';     // 'native' only at the moment
 $CFG->dbhost    = 'ec2-54-247-94-127.eu-west-1.compute.amazonaws.com';  // eg 'localhost' or 'db.isp.com' or IP
-$CFG->dbname    = 'd6f1cu74mrnd4j';     // database name, eg moodle
-$CFG->dbuser    = 'ynzejmckkutnka';   // your database username
-$CFG->dbpass    = 'b320d4d5a789a3d0d476a8f7c06594fa09c6e75f87e315731edbb1be11f910b5';   // your database password
+$CFG->dbname    = 'd60vpe2la1cndd';     // database name, eg moodle
+$CFG->dbuser    = 'xqgggmzdczefnc';   // your database username
+$CFG->dbpass    = '3a1adc682b22c78a70fab085af0dc871ea62884960c99d2386d6e8602a7093d8';   // your database password
 $CFG->prefix    = 'mdl_';       // prefix to use for all table names
 $CFG->dboptions = array(
     'dbpersist' => false,       // should persistent database connections be
@@ -93,7 +93,7 @@ $CFG->dboptions = array(
 // If you need both intranet and Internet access please read
 // http://docs.moodle.org/en/masquerading
 
-$CFG->wwwroot   = 'http://ipd-moodle.herokuapp.com';
+$CFG->wwwroot   = 'http://southernyachting-moodle.herokuapp.com/';
 
 
 //=========================================================================
